@@ -10,7 +10,7 @@ HTML, CSS, jQuery
 
 * Users can drag the bar on mousedown to reveal the second image.
 
-The moment the user releases the mouse, the bar jumps back to the initial middle position.
+* The moment the user releases the mouse, the bar jumps back to the initial middle position.
 
 # Goals while doing the project
 
