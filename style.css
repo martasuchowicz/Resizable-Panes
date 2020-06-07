@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    background-color: silver;
+}
+
+img {
+    height: 500px;
+    width: 800px;
+    user-select: none;
+}
+
+.container {
+    position: absolute;
+    border: solid 5px grey;
+    height: 510px;
+    width: 810px;
+    overflow: hidden;
+}
+
+.top-image {
+    position: absolute;
+    overflow: hidden;
+    z-index: 5;
+    width: 400px;
+}
+
+.bottom-image {
+    position: absolute;
+}
+
+.bar {
+    position: absolute;
+    height: 500px;
+    width: 5px;
+    left: 395px;
+    background-color: grey;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 65px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
